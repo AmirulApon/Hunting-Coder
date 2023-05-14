@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 import Link from 'next/link'
+import Dummy from '@/component/dummy'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
+      <Dummy></Dummy>
       {/* <Script src='/sc.js' strategy='lazyOnload'></Script> */}
       <nav className={styles.mainnav}>
         <ul>
