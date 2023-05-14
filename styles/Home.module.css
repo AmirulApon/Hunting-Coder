@@ -1,3 +1,8 @@
+.container{
+  padding: 0 2rem;
+  background: #ab4040;
+}
+
 .main {
   display: flex;
   flex-direction: column;
